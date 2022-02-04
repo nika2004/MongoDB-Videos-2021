@@ -1,7 +1,6 @@
 {
-  "name": "MongoDB-Videos-2021",
+  "name": "mongodb-videos-2021",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon app.js"
@@ -10,10 +9,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^6.0.14"
+    "express": "^4.17.2",
+    "mongoose": "^6.2.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhalenSITHS/MongoDB-Videos-2021.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WhalenSITHS/MongoDB-Videos-2021/issues"
+  },
+  "homepage": "https://github.com/WhalenSITHS/MongoDB-Videos-2021#readme",
+  "description": ""
 }
