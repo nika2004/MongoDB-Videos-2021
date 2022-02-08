@@ -18,14 +18,14 @@ exports.homePage = async (req, res) => {
       if(req.body.user){
           next();
       } else {
-          res.json("You must be signed in")
+          res.json("You must be signed in");
       }
   };
 
   exports.authPage = async (req,res) => {
       try {
-          res.json(req.body.user)
+          res.json("Secret Data")
       } catch (error) {
-          console.log(error);
+        console.log(error);
       }
   }
